@@ -18,6 +18,11 @@
         public double Price { get; set; }
 
         /// <summary>
+        /// La photo du produit
+        /// </summary>
+        public string Image { get; set; }
+
+        /// <summary>
         /// Si le produit est en stock
         /// </summary>
         public bool IsInStock { get; set; }
